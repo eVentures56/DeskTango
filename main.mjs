@@ -5,6 +5,7 @@ import { fileURLToPath } from 'url';
 const __dirname = fileURLToPath(new URL('.', import.meta.url));
 console.log('Electron starting...');
 
+
 function createWindow() {
   const win = new BrowserWindow({
     width: 300,
