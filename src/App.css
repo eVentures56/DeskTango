@@ -1,0 +1,80 @@
+.app-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.8), rgba(50, 50, 50, 0.9));
+    color: white;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+  }
+  
+  .monitor-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .monitor-buttons button {
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.1s;
+    background: #4CAF50;
+  }
+  
+  .monitor-buttons button:hover {
+    background: #45a049;
+    transform: scale(1.05);
+  }
+  
+  .monitor-buttons button:disabled {
+    background: #a0a0a0; /* Grayed out when disabled */
+    cursor: not-allowed;
+    transform: none;
+  }
+  
+  .scenario-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .scenario-buttons button {
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #444;
+    color: white;
+  }
+  
+  .scenario-buttons button:hover {
+    background: #666;
+  }
+  
+  .scenario-list {
+    margin-top: 20px;
+  }
+  
+  .scenario-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .scenario-list li {
+    padding: 5px 10px;
+    background: #333;
+    margin: 5px 0;
+    border-radius: 3px;
+  }

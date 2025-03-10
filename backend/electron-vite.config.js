@@ -6,7 +6,7 @@ export default defineConfig({
   main: {
     build: {
       rollupOptions: {
-        input: resolve(__dirname, 'main.js')
+        input: resolve(__dirname, 'main.mjs') // Changed from main.js to main.mjs
       }
     }
   },

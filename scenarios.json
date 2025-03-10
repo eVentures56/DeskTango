@@ -1,0 +1,39 @@
+{
+  "scenarios": {
+    "Work": [
+      {
+        "id": 1,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 1345,
+          "height": 896
+        }
+      }
+    ],
+    "Play": [
+      {
+        "id": 1,
+        "bounds": {
+          "x": 0,
+          "y": -1080,
+          "width": 1345,
+          "height": 896
+        }
+      }
+    ],
+    "Focus": [
+      {
+        "id": 1,
+        "bounds": {
+          "x": -1920,
+          "y": 6,
+          "width": 1345,
+          "height": 896
+        }
+      }
+    ]
+  },
+  "points": 0,
+  "theme": "dark"
+}
